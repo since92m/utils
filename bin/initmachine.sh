@@ -8,7 +8,8 @@ sudo apt-get install unity-tweak-tool fonts-wqy-microhei flatabulous-theme ultra
 sudo apt-get remove vim-common
 sudo apt-get install vim-common
 sudo apt-get install vim-gnome
-sudo apt install  vim-gnome
+sudo apt-get -y install exuberant-ctags
+curl https://j.mp/spf13-vim3 -L > spf13-vim.sh && sh spf13-vim.sh
 #tar -zxvf flash_player_npapi_linux.x86_64.tar.gz 
 #sudo cp libflashplayer.so /usr/lib/firefox-addons/plugins/
 #sudo cp -r usr/* /usr/
