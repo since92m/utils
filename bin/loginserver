@@ -1,0 +1,12 @@
+#! /bin/bash
+IP2='172.18.31.152'
+IP3='172.18.31.153'
+USR='malijun'
+if [[ $1 == "--node1" ]]
+then
+    echo -e "\033[32;49;1m login ${IP2} ... \033[39;49;0m"
+    ssh -X ${USR}@${IP2}
+else
+    echo -e "\033[32;49;1m login ${IP3} ... \033[39;49;0m"
+    ssh -X ${USR}@${IP3}
+fi
